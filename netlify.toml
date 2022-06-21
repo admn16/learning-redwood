@@ -4,7 +4,6 @@ publish = "web/dist"
 functions = "api/dist/functions"
 
 [build.environment]
-  YARN_CACHE_FOLDER = "/opt/buildhome/.yarn_cache"
   YARN_VERSION = "3.2.1"
 
 [dev]
